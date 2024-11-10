@@ -32,6 +32,7 @@ mypy-extensions==1.0.0
 numpy==1.26.4
 openai==1.54.2
 orjson==3.10.11
+openpyxl>=3.1.2
 packaging==24.1
 propcache==0.2.0
 pydantic==2.9.2
