@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
-from langchain.llms import OpenAI  # Correção da importação
+from langchain_community.llms import OpenAI
+
 from langchain_experimental.agents import create_pandas_dataframe_agent
 import openai
 import os
