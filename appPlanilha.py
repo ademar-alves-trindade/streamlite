@@ -12,6 +12,8 @@ load_dotenv()
 
 # Verificação da chave de API
 openai_api_key = os.getenv("OPENAI_API_KEY")  # Busca a chave do ambiente
+st.write(f"Chave da API carregada: {openai_api_key}")
+
 if not openai_api_key:
     st.error("Erro: A chave da API OpenAI não foi configurada. Verifique as configurações.")
 else:
